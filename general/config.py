@@ -3,7 +3,7 @@ from pydantic_settings import BaseSettings
 
 
 class Config(BaseSettings):
-    WELCOME_MESSAGE: str
+    PORT: str
 
     LOG_LEVEL: str
     LOG_FILE: str

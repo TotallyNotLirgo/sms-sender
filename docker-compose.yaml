@@ -1,8 +1,0 @@
-services:
-  SMS:
-    build: .
-    container_name: SMS-container
-    volumes:
-      - .:/app
-      - /app/.venv
-    
